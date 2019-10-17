@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans:800" rel="stylesheet">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <title>Quantum Computers - Wesley Witter</title>
+    <style>
+    h1 {
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 60px;
+	    padding-left: 30px;
+	    font-size: 2em;
+	}
+	h2 {
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 40px;
+	    padding-left: 0px;
+	    font-size: 1.6em;
+	}
+
+	p {
+	    font-family: 'Cabin', sans-serif;
+	    font-size: 25px;
+	    font-size: 1.2em;
+	}
+
+	navbar {
+	    min-height: 80px;
+	}
+
+	body {
+	    margin: 0;
+	    padding: 0px 0 0;
+	}
+
+
+	</style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  	<!-- Navigation Bar 
+	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" href="#section1">0</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#section2">1</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#section3">2</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link " href="#">3</a>
+	    </li>
+	  </ul>
+	</nav>
+	-->
+
+	
+
+
+
+	<!-- Top Image -->
+  	<div id="section1" class="container-fluid px-0">
+  		<img class="container-fluid px-0" src="images/QCimage2.1.png"/>
+  	</div>
+
+
+  	<!--Section 2 -->
+  	<div id="section2" class="container-fluid " 
+  	style="padding-top:40px; padding-bottom:40px;  background-color: #e5e5e5">
+	  <h1>How Typical Computing Works</h1>
+	  <div class="row container-fixed"  style="margin-top: 40px;">
+	  	<div class="col-sm-1">
+  		</div>
+  		<div class="col-md-5" style="padding-right: 80px;">
+	 	 <p>To understand how quantum computing works, we must first understand, at least at a basic level, how regular computing works.</p><p> <b><span style="color:#ff8100">Classical Computers</span></b> (what you're probably using right now), perform calculations with combinations of ones and zeros, called <b><span style="color:#ff8100">bits</span></b>. "1" represents a transistor that is powered on, and "0" represents a transistor that is powered off. Your computer's processor contains <b><span style="color:#ff8100">hundreds of millions</span></b> of these tiny transistors that are constantly switching on and off to give your computer a vast array of functionality. All the programs you use, all the webpages you visit, and all of the many other operations you initiate are, to your computer, just a combination of on or off transistors. However, even with all this functionality and computing power, classical computers will always struggle with certain types of calcululations no matter how strong our proccesors get. We'll go more into that later, for now just understand that our classical computers do have limits.</p>
+  		</div>
+  		<div class="col-sm-5">
+  			<img class="container-fluid px-0" src="images/oneZero.png" />
+  		</div>
+  		<div class="col-sm-1">
+  		</div>
+	  </div>
+	</div>
+
+	<div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+	  <h1><center>Let's get <span style="color:#ff8100">Quantum!</span></center></h1>
+	  <p style="padding-top: 40px;padding-left: 150px;padding-right: 150px">Instead of bits, Quantum Computers contain <b><span style="color:#ff8100">qubits</span></b>. These qubits, or quantum bits, can be a single photon that may be in two states: in horizontal polarization or vertical polarization, just as a regular bit may be on or off. However, a photon may be in a combination of both horizontal and vertical polarization or an electron may be only partially charged. This fundamental difference, the ability to contain multiple states, is what makes a quantum computer so powerful. Chris Woodford explains the analog to this in his <b><a href="https://www.explainthatstuff.com/quantum-computing.html" target="_blank"><span style="color:#ff8100">Quanutum Computing Article,</span></a></b></p>
+	  <p style="padding-left: 150px;padding-right: 150px">"A gentler way to think of the numbers qubits store is through the physics concept of superposition (where two waves add to make a third one that contains both of the originals). If you blow on something like a flute, the pipe fills up with a standing wave: a wave made up of a fundamental frequency (the basic note you're playing) and lots of overtones or harmonics (higher-frequency multiples of the fundamental). The wave inside the pipe contains all these waves simultaneously: they're added together to make a combined wave that includes them all. Qubits use superposition to represent multiple states (multiple numeric values) simultaneously in a similar way."</p>
+	  <p style="padding-left: 150px;padding-right: 150px">Quantum computers will store these particles, perform diferent operations on them, and then we observe their final state. By observing the particles, they collapse into a basic state, either 0 or 1, giving us the answer to our problem. This means that we can get an entire set of calculations done at the same time. By computing multiple problems concurrently, quantum computers will be able to exponentially decrease the amount of time it takes to solve complex problems. Now that we understand the basics of quantum computing, we can go into an overview of building the quantum computer in order to better understand what operations they perform and how to retrieve our results.</p>
+	</div>
+
+	<div id="section41" class="container-fluid" style="padding-top:70px;padding-bottom:70px; background-color: #e5e5e5">
+		<h1>So, how do we build it?</h1>
+		<div style="padding-left:40px">
+		<p>For our purposes, we'll just go into the most general parts neccesary because there are different ways you can build a quantum computers (much like classical computers) and we're constatly learning new ways to alter and improve it, but if you want to know specifically how one company does it check out D-Wave's <b><a href="https://www.dwavesys.com/tutorials/background-reading-series/introduction-d-wave-quantum-hardware#h1-0" target="_blank"><span style="color:#ff8100">Quantum Hardware page.</span></a></b></p>
+		<h2>#1: The Quantum Chip</h2>
+		<div class="container-fluid row">
+			<div class="col-md-6">
+				<p>The Quantum Chip, or the Quantum processing Unit, is where all the qubits are contained. In here, the qubits are stored in such a way so that they may interact with eachother when needed. D-wave accomplishes this by "couplers... made from superconducting loops" which "allow the qubits to exchange information". As you can image, it's difficult to store these tiny particles and keep them organized. So, these companies take an array of measures to keep these particles at rest (which we'll talk about in #3).</p>
+			</div>
+			<div class="col-md-6">
+				<img class="container-fixed px-0" src="images/QubitChip.jpg"/>
+			</div>
+		</div>
+		<h2>#2: Circuitry and Quantum Gates</h2>
+		<div class="container-fluid row">
+			<div class="col-md-6">
+				<p>Many companies use superconducting loops as the circuits of their quantum computers. With the use of these circuits, we can perform special operations on these qubits called quantum gates. Quantum gates are similiar to "AND" "OR" and "NOT" operations in typical programming such that we can manipulate bits of information to give us a desired result. The IBM Q Experience gives an excellent introduction to quantum gates by allowing you to directly work with a quantum computer in their "Composer." This provides an easy-to-learn GUI with which you can drag-and-drop quantum gates onto actual qubits. <b><a href="https://quantumexperience.ng.bluemix.net/qx/editor" target="_blank"><span style="color:#ff8100">Give it a try!</span></a></b></p>
+			</div>
+			<div class="col-md-6" style="padding-left: 40px">
+				<img class="container-fixed px-0" src="images/circuits.png"/>
+			</div>
+			</div>
+		</div>
+		<h2 style="padding-left: 40px">#3: Quantum Cooling and Reduction of Disturbance</h2>
+		<div class ="container-fluid row">
+			<div class="col-md-6">
+				<p>Quantum computers have to be cooled down to near absolute-zero simply to minimize error. At extremely low temperatures molecules move around less and have less chance to do something we don't intend them to do. James Wall describes their movement at near absolute-zero temperature, "there's less of a chance that something outside of a human's control will cause a qubit's voltage to spike, causing the qubit to flip from one quantum state to another." So, by keeping them at this low-temperature we reduce the change that our qubits change states without us realizing it and causing an error with our final calculation. We know why we need it, but how in the world can we get to temperatures so cold? Well, Associate Professor Andrea Morelllo explains exactly how to do that in <b><a href="https://www.youtube.com/watch?time_continue=42&v=7jT5rbE69ho" target="_blank"><span style="color:#ff8100">this video.</span></a></b> He shows that Helium-3 and Helium-4, with the help of the quantum phenomenon 'zero-point motion', can be utilized in a dilution fridge so that almost absolute zero temperatures are reached.</p>
+			</div>
+			<div class="col-md-6">
+				<img class="container-fluid px-0" src="images/professor.png"/>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div id="section42" class="container-fluid" style="padding-top:70px">
+	  <center><h1>The Future of Quantum</h1><center>
+	  <div class="container-fluid row" style="padding-top: 40px">
+	  	<div class="col-4">
+	  		<h2>Quantum Cryptography</h2>
+	  		<p>Quantum cryptography opens up doors to even more secure forms of sending and receiving information. The NSA and Department of Defense are looking into ways to use this form of encryption in the future.</p>
+	  	</div>
+	  	<div class="col-4">
+	  		<h2>Quantum Simulation</h2>
+	  		<p>Some beleive that these computers have the possibility to tell us more about quantum physics through simulation of the quantum world with these computers.</p>
+	  	</div>
+	  	<div class="col-4">
+	  		<h2>Artificial Intelligence</h2>
+	  		<p>Quanutum computers open up the potential for terrifyingly powerful AI that learns exponentially faster compared to the AI we know of now.</p>
+	  	</div>
+	  </div>
+	</div>
+
+		<div id="section42" class="container-fluid" style="padding-bottom:70px">
+	  <div class="container-fluid row" >
+	  	<div class="col-4">
+	  		<center><p><b><a href="https://en.wikipedia.org/wiki/Quantum_cryptography" target="_blank"><span style="color:#ff8100">Read more here.</span></a></b></p></center>
+	  	</div>
+	  	<div class="col-4">
+	  		<center><p><b><a href="https://en.wikipedia.org/wiki/Quantum_simulator" target="_blank"><span style="color:#ff8100">Read more here.</span></a></b></p></center>
+	  	</div>
+	  	<div class="col-4">
+	  		<center><p><b><a href="https://en.wikipedia.org/wiki/Quantum_machine_learning" target="_blank"><span style="color:#ff8100">Read more here.</span></a></b></p></center>
+	  	</div>
+	  </div>
+	</div>
+
+	<div id="section43" class="container-fluid" style="padding-top:70px;padding-bottom:70px;background-color: #0b3e5f">
+		<h2 style="color: #ffffff">Sources:</h2>
+		<p style="color: #ffffff"> <b>Images (from top to bottom):</b> <br />https://phys.org/news/2017-11-ibm-milestone-quantum.html (courtesy: IBM) <br /> https://www.wired.com/2015/09/googles-quantum-computer-just-got-a-big-upgrade-1000-qubits/ (Google) https://earltcampbell.com/research/quantum-compiling/ <br /> (Screenshot from video) https://www.youtube.com/watch?v=7jT5rbE69ho</p>
+		<p style="color: #ffffff"> <b>Articles: </b><br />
+		Chris Woodford: https://www.explainthatstuff.com/quantum-computing.html<br /> 
+		D-Wave's Quantum Hardware Page: https://www.dwavesys.com/tutorials/background-reading-series/introduction-d-wave-quantum-hardware#h1-0<br />
+		IBM Q Composer: https://quantumexperience.ng.bluemix.net/qx/editor<br />
+		2veritasium Youtube video: https://www.youtube.com/watch?time_continue=42&v=7jT5rbE69ho</p>
+	</div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
